@@ -18,6 +18,7 @@
         </p>
         <div class="view">
           <h4 id="output"></h4>
+          <!--  need enctype="multipart/form-data for multer to work -->
           <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
             <input id="inputfield" type="file" name="upfile">
             <input id="button" type="submit" value="Upload">
